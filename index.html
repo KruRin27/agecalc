@@ -68,13 +68,13 @@
   <!-- 🔥 โลโก้ -->
   <img src="logo.png" alt="logo">
 
-  <h2>คำนวณอายุ</h2>
+  <h2>คำนวณอายุ(Calculate age)</h2>
 
-  <p>เลือกวันเกิด</p>
+  <p>ระบุวันเดือนปีเกิด(Enter date of birth)</p>
   <input type="date" id="birthday">
 
   <br>
-  <button onclick="calculateAge()">คำนวณ</button>
+  <button onclick="calculateAge()">Calculate</button>
 
   <div id="result"></div>
 
@@ -111,7 +111,7 @@ function calculateAge() {
   }
 
   document.getElementById("result").innerText =
-    "อายุ: " + years + " ปี " + months + " เดือน";
+    "Age: " + years + " Years " + months + " Months";
 }
 </script>
 
