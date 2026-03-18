@@ -85,7 +85,7 @@ function calculateAge() {
   let input = document.getElementById("birthday").value;
 
   if (!input) {
-    alert("กรุณาเลือกวันเกิด");
+    alert("กรุณาเลือกวันเกิด(Please select your date of birth)");
     return;
   }
 
@@ -111,7 +111,7 @@ function calculateAge() {
   }
 
   document.getElementById("result").innerText =
-    "Age: " + years + " Years " + months + " Months";
+    "อายุ(Age): " + years + " ปี(Years) " + months + " เดือน(Months)";
 }
 </script>
 
